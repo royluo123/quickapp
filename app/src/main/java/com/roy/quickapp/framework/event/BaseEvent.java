@@ -5,4 +5,10 @@ package com.roy.quickapp.framework.event;
  */
 
 public class BaseEvent {
+    public int id;
+    public Object args;
+
+    public BaseEvent(int id){
+        this.id = id;
+    }
 }
